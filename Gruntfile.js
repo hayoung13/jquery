@@ -29,7 +29,7 @@ module.exports = function( grunt ) {
 				compress: {
 					gz: function( contents ) {
 						return gzip.zip( contents, {} ).length;
-					}
+					//} m by hy
 				},
 				cache: "build/.sizecache.json"
 			}
